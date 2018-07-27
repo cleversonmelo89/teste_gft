@@ -1,0 +1,22 @@
+== README
+
+This README would normally document whatever steps are necessary to get the
+application up and running.
+
+* Ruby version
+  ruby 2.2.7p470
+  Rails 4.2.7.1
+
+* How to run the test suite
+  This is a application rails, can u running in rails console calling the name of class method.
+  Example:
+  rails c
+  Dishies.new().dishies_values("night,2,3,1,2")
+
+  You can also run into the folder of project the command line.
+  ruby -r "./app/scripts/dishies.rb" -e "Dishies.new().dishies_values 'morning,1,2,3'"
+
+  You can also run the test with 'rspec' into the folder of project.
+
+
+
